@@ -12,6 +12,4 @@ $app->get('/authors', '\Api\Authors\AuthorsController:index');
 $app->get('/books', '\Api\Books\BooksController:index');
 $app->get('/books/create', '\Api\Books\BooksController:create');
 
-$app->get('/currencies', '\Api\Currency\CurrencyController:index');
-
 $app->run();
